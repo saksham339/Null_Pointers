@@ -7,11 +7,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-[url('')]">
     <!-- Navbar starts here  -->
-     <nav id=" navbar">
-        <div class="">
-            
+     <nav id="navbar">
+        <div class="max-x-7xl mx-auto h-16">
+            <div>
+                <!-- Logo here  -->
+                 <a href="home.php">
+                 <img src="logo/logo2.png" alt="">
+                 </a>
+            </div>
         </div>
      </nav>
 </body>
