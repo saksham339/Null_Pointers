@@ -54,8 +54,10 @@
                 <button type="submit" class="w-full font-bold bg-gradient-to-r from-[#1089d3] to-[#12b1d1] text-white py-3 rounded-[20px] mt-5 shadow-[0_20px_10px_-15px_rgba(133,189,215,0.88)] hover:scale-105 hover:shadow-[0_23px_10px_-20px_rgba(133,189,215,0.88)] active:scale-95 active:shadow-[0_15px_10px_-10px_rgba(133,189,215,0.88)] transition-all duration-200 ease-in-out">Sign UP</button>
             </form>
             
-            <!-- Already have an account? -->
-            <p class="text-center text-sm">Already have an account? <a href="signin.php" class="text-black font-medium hover:underline">Sign in</a></p>
+            <!-- for Sign in -->
+            <p class="text-center text-sm">Already have an account? 
+                <a href="signin.php" class="text-black font-medium hover:underline">Sign in</a>
+            </p>
             
             <!-- Divider -->
             <div class="flex items-center justify-center space-x-2">
@@ -86,6 +88,7 @@
     </div>
     <!-- form ends here  -->
 
+    <!-- javascript  -->
     <script>
         function PasswordVisibility(fieldId) {
             const passwordField = document.getElementById(fieldId);
@@ -118,6 +121,6 @@
             window.location.href = 'home.php';
         });
     </script>
-    
+
 </body>
 </html>

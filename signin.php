@@ -18,9 +18,12 @@
             <p class="text-gray-500">Welcome back!</p>
             
             <form action="home.php" class="space-y-4">
+
+                <!-- email  -->
                 <div>
                     <input type="email" placeholder="name@email.com" class="w-full px-4 py-3 border rounded-[20px] focus:outline-none focus:ring-2 focus:ring-gray-900">
                 </div>
+                <!-- password  -->
                 <div class="relative">
                     <input type="password" id="password" placeholder="Password" class="w-full px-4 py-3 border rounded-[20px] focus:outline-none focus:ring-2 focus:ring-gray-900" required>
                     <!-- Eye icon for password -->
@@ -40,7 +43,10 @@
                 <button type="submit" class="w-full font-bold bg-gradient-to-r from-[#1089d3] to-[#12b1d1] text-white py-3 rounded-[20px] mt-5 shadow-[0_20px_10px_-15px_rgba(133,189,215,0.88)] hover:scale-105 hover:shadow-[0_23px_10px_-20px_rgba(133,189,215,0.88)] active:scale-95 active:shadow-[0_15px_10px_-10px_rgba(133,189,215,0.88)] transition-all duration-200 ease-in-out">Sign In</button>
             </form>
             
-            <p class="text-center text-sm">Don't have an account? <a href="signup.php" class="text-black font-medium hover:underline">Sign up</a></p>
+            <!-- for sign up  -->
+            <p class="text-center text-sm">Don't have an account? 
+                <a href="signup.php" class="text-black font-medium hover:underline">Sign up</a>
+            </p>
             
             <div class="flex items-center justify-center space-x-2">
                 <div class="w-1/3 border-t"></div>
@@ -71,6 +77,7 @@
     </div>
     <!-- form ends here  -->
 
+    <!-- javascript  -->
     <script>
         function togglePasswordVisibility(fieldId) {
             const passwordField = document.getElementById(fieldId);
