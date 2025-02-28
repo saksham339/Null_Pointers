@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container"></div>
+    <!-- Navbar starts here  -->
+     <nav id=" navbar">
+        <div class="">
+            
+        </div>
+     </nav>
 </body>
 </html>
